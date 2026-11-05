@@ -7,16 +7,6 @@ PS C:\Users\carlos.quintero\Documents\Personal\Coding\Docker\exercises-docker-ba
 
 
 Arguments given: hello
-PS C:\Users\carlos.quintero\Documents\Personal\Coding\Docker\exercises-docker-basics\1_08> ^C
-PS C:\Users\carlos.quintero\Documents\Personal\Coding\Docker\exercises-docker-basics\1_08> docker run devopsdockeruh/simple-web-service:alpine server
-[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
-
-[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
- - using env:   export GIN_MODE=release
- - using code:  gin.SetMode(gin.ReleaseMode)
-
-[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
-[GIN-debug] Listening and serving HTTP on :8080
 PS C:\Users\carlos.quintero\Documents\Personal\Coding\Docker\exercises-docker-basics\1_08> docker build -t web-server
 ERROR: docker: 'docker buildx build' requires 1 argument
 
